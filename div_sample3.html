@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ケーキ一覧</title>
+  <style>
+    body {
+      background-color: #ffc0cb;
+      font-family: sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #800000;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .cake-box {
+      width: 300px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    #one {
+      background-color: #F78486;
+    }
+
+    #two {
+      background-color: #FFF616;
+    }
+
+    #three {
+      background-color: white;
+      color: #F8060A;
+      border: thick solid #48EF41;
+    }
+
+    .cake-box img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    .cake-box p {
+      margin-top: 10px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>ケーキ一覧</h1>
+  <div class="container">
+    <div id="one" class="cake-box">
+      <img src="cake01.jpg" alt="ショートケーキ">
+      <p>ショートケーキ：イチゴがのった定番の人気ケーキ</p>
+    </div>
+    <div id="two" class="cake-box">
+      <img src="cake03.jpg" alt="チョコレートケーキ">
+      <p>チョコレートケーキ：濃厚なチョコがたっぷり</p>
+    </div>
+    <div id="three" class="cake-box">
+      <img src="cake02.jpg" alt="モンブラン">
+      <p>モンブラン：栗のクリームが香る秋の味覚</p>
+    </div>
+  </div>
+</body>
+</html>
